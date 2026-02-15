@@ -40,7 +40,7 @@ This pattern suggested closed UDP ports and active probing activity.
 
 From a Blue Team perspective, the observed traffic patterns are consistent with early-stage network reconnaissance. The presence of SYN packets across multiple destination ports, combined with ICMP Port Unreachable responses, indicates systematic probing activity.
 
-Based on this analysis, a SOC analyst could monitor for:
+Based on this analysis, a SOC analyst could monitor for indicators such as:
 
 - High volumes of SYN packets targeting multiple ports from a single source.
 - Repeated ICMP Type 3 Code 3 (Port Unreachable) responses.
@@ -49,5 +49,5 @@ Based on this analysis, a SOC analyst could monitor for:
 These indicators may help identify potential scanning behavior during the reconnaissance phase of an attack. 
 
 ## Conclusion
-The traffic analysis revealed clear indicators of network reconnaissance using both TCP and UDP techniques. Combining packet-level inspection with statistical analysis improves early detection of scanning behavior in SOC environments.
+The traffic analysis revealed clear indicators of potential network reconnaissance using both TCP and UDP techniques. Combining packet-level inspection with statistical analysis improves early detection of scanning behavior in SOC environments.
 
