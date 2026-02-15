@@ -46,3 +46,4 @@ From a Blue Team perspective, this activity may indicate early-stage reconnaissa
 
 ## Conclusion
 The traffic analysis revealed clear indicators of network reconnaissance using both TCP and UDP techniques. Combining packet-level inspection with statistical analysis improves early detection of scanning behavior in SOC environments.
+
