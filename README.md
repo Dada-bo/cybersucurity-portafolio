@@ -11,7 +11,9 @@ Hi, I'm building a junior cybersecurity portfolio focused on Blue Team and Cloud
 
 ## Portfolio Structure
 
-- Write-ups: see /01-Writeups  
+- Write-ups: see /01-Writeups
+- ### 🔍 Featured Analysis
+- Wireshark TCP/UDP Scan Analysis → [View write-up](./01-Writeups/wireshark-tcp-udp-scan-analysis.md)  
 - Projects: see /02-Projects  
 - Notes: see /03-Notes  
 
